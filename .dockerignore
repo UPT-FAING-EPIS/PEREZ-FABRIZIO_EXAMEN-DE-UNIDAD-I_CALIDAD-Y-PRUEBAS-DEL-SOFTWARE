@@ -1,0 +1,18 @@
+# Docker ignore
+**/bin
+**/obj
+**/.git
+**/.gitignore
+**/.github
+**/tests
+**/terraform
+**/frontend
+Dockerfile
+docker-compose*.yml
+*.md
+*.sln
+*.git
+.git
+README*
+.vscode
+.idea

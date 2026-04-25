@@ -1,0 +1,77 @@
+# .gitignore
+## Binaries
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.app
+*.war
+
+## IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+coverage.*
+coverage.opencover.xml
+.coverage
+
+## Build results
+publish/
+*.nupkg
+*.snupkg
+*.nuget.*
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Docker
+docker-compose.override.yml
+.dockerignore
+
+## Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfplan
+
+## Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+## Logs
+*.log
+logs/
+
+## Secrets
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+
+## Visual Studio
+.vs/
+*.sln.ide/

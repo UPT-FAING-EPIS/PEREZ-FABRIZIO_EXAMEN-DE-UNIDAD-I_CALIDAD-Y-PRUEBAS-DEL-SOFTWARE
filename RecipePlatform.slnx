@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RecipePlatform.API/RecipePlatform.API.csproj" />
+    <Project Path="src/RecipePlatform.Application/RecipePlatform.Application.csproj" />
+    <Project Path="src/RecipePlatform.Domain/RecipePlatform.Domain.csproj" />
+    <Project Path="src/RecipePlatform.Infrastructure/RecipePlatform.Infrastructure.csproj" />
+  </Folder>
+</Solution>
